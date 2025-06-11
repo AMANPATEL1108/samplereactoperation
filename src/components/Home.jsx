@@ -3,6 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <div className="min-h-screen bg-gray-100 py-10 px-4">
+      console.log()
       <h1 className="text-3xl font-bold text-center text-green-700 mb-10">
         Welcome to Farm Vibe
       </h1>
