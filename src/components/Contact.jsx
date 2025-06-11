@@ -14,12 +14,12 @@ const Contact = () => {
   function handleSubmit(e) {
     e.preventDefault();
 
-    const form = e.target;
+    // const form = e.target;
     const abc = {
-      name: form.name.value,
-      email: form.email.value,
-      message: form.message.value,
-      number: form.number.value,
+      name: e.target.name.value,
+      email: e.target.email.value,
+      message: e.target.message.value,
+      number: e.target.number.value,
     };
 
     console.log(abc);
